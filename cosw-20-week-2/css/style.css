@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+/*place the google font on the top, then we have to reference it in the CSS*/
+* {
+  margin: 0;
+  
+} /* "*" is the universal code that will apply to your whole code which is why the margins are removed*/
+header {
+  border: 15px solid #7c94bf;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 500px;
+  background-color:#8e9bb2;
+  color: #fcfcfc;
+  letter-spacing: 15px;
+  
+}
+/*if two things are together, you need a float and a width, under neath each other you need a clear */
+header h1, h2, h3 {
+  font-family: 'Shadows Into Light', cursive; /*you take the code from google fonts and place it to the elments you want to apply it*/
+}
+h3 {
+  text-align: right;
+  font-size: 30px;
+  margin: 20px;
+  border: 5px solid #d6c0e0;
+  background-color: #d6c0e0;
+  color: #fcfcfc;
+  letter-spacing: 15px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 15px;
+}
+nav ul li {
+  display: inline-block; /*changes from a list to inline, so you can change them to buttons*/
+  border: 4px dashed #bce2df;
+  background-color: #f6f7cf;
+
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 25px;
+  font-family: 'Shadows Into Light', cursive;
+  color: pink;
+  letter-spacing: 5px;
+}
+main img {
+  border: 10px solid #9b8f8f;
+  margin-left: 600px;
+  
+}
+main section {
+  width: 30%;
+  float: left;
+}
+section {
+  width: 30%;
+  float: left;
+  margin: 3% 5%;
+  padding: 1%;
+  text-align: left;
+  background-color: #aca5af;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /*keep in mind that the website is 100%, so you have to subtract the margins and padding, if it goes beyond that, your site will look crazy and "breaks"*/
+}
+
+main article img {
+  
+}
+footer {
+  clear: both; /*escape anything from the left, right, or both*/
+  background-color: #262626;
+  color: #ccd5e5;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0; /*might just be codepen which is why the margin did not disappear*/
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
