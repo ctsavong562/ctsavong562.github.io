@@ -1,0 +1,121 @@
+
+.header {
+	background-color: firebrick;
+	color: white;
+	text-align: center;
+	margin: 0px auto;
+	padding: .5em;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 2em;
+	letter-spacing: .25em;
+	text-shadow: 5px 5px 5px black;
+
+}
+.portrait {
+	filter: grayscale(100%);
+	border-radius: 1em;
+	border: .25em solid white;
+	box-shadow: .25em .25em 1em black;
+}
+
+.return {
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	letter-spacing: 1px;
+}
+article {
+	background-color: firebrick;
+	margin:auto;
+	text-align: center;
+	width: 50%;
+	padding: 1em;
+	margin-top: 3em;
+	font-family: 'Enriqueta', serif;
+	border: .5em solid white;
+	border-radius: 1em;
+	margin-bottom: 2em;
+	box-shadow: .5em .5em 2em white;
+		
+}
+#sig {
+	width: 300px;
+	height: auto;
+	border-radius: 10em;
+	border: .5em solid black;
+}
+#rwby {
+	width: 310px;
+	height:auto;
+	
+}
+
+p {
+	text-align: left;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.works {
+	font-size: 1em;
+	margin: 0 15%;
+	padding-bottom: .5em;
+}
+
+.annotation  {
+	text-align: left;
+	padding-bottom: .25em;
+	text-indent: 2%;
+}
+h3 {
+	padding-bottom: .5em;
+	font-size: 2em;
+	color: white;
+	font-weight: bolder;
+	text-shadow: 5px 5px 5px black;
+		
+}
+h4 {
+	text-align: left;
+	padding-top: .25em;
+	font-style: italic;
+}
+h5 {
+	padding-bottom: .5em;
+	color: white;
+	font-weight: bolder;
+	text-shadow: 5px 5px 5px black;
+	font-size: 1em;
+
+}
+body {
+	background-image: url("bg_img1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
+
+footer {
+	background-color: firebrick;
+	margin: auto;
+	text-align: center;
+	
+}
+#forward {
+	border: 1em solid white;
+	border-radius: 10em;
+	margin: 2em;
+	box-shadow: 1em 1em 5em;
+	width: 200px;
+}
+#forward:hover {
+	transform: scale(1.5);
+}
+
+a {
+	text-decoration: none;
+	color: #f9ff96;
+}
+a:hover {
+	color: white;
+}
