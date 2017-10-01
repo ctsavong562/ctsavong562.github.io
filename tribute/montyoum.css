@@ -119,3 +119,8 @@ a {
 a:hover {
 	color: white;
 }
+
+.gif:hover {
+	border: .5em solid #f9ff96;
+	box-shadow: .5em .5em 2em #f9ff96;
+}
